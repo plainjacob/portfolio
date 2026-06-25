@@ -15,6 +15,7 @@ export default function Navbar() {
         <Link href="/">
           <h1 className={`${jetBrainsMono.className} text-3xl`}>&lt;pj&gt;</h1>
         </Link>
+        <Link href="/projects">Projects</Link>
         <Link href="/about">About</Link>
       </div>
       <ThemeToggle />
